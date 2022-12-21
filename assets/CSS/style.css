@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ /* Header */
+ .header{
+    width: 100%;
+    height: 5em;
+    background-color: #9093c7;
+    display: flex;
+    justify-content: space-between; /*alinear los items en el eje principal*/
+    align-items: center; /*alinear los item en el centro del eje horizontal*/
+    padding: 0em 6em 0em 4em;
+    gap: 8em;
+ }
+.logo{
+    display:flex;
+    height:90%;
+}
+ .navbar-list{
+    display: flex;
+    gap: 2em;
+ } 
