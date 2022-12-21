@@ -8,20 +8,21 @@
  }
  /* Header */
  .header{
-    width: 100%;
-    height: 5em;
-    background-color: #9093c7;
-    display: flex;
-    justify-content: space-between; /*alinear los items en el eje principal*/
-    align-items: center; /*alinear los item en el centro del eje horizontal*/
-    padding: 0em 6em 0em 4em;
-    gap: 8em;
+   width: 100%;
+   height: 5em;
+   padding: 0.2em;
+   display: flex;
+   background-color: #9093c7;
+   justify-content: space-around;
+   align-items: center;
  }
-.logo{
-    display:flex;
-    height:90%;
-}
+ .logo{
+   display: flex;
+   height: 100%;
+ }
+ .navbar,.navbar-list{
+   display: flex;
+ }
  .navbar-list{
-    display: flex;
-    gap: 2em;
- } 
+   gap:2em;
+ }
